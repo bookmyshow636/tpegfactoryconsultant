@@ -812,6 +812,6 @@
 		expertizeRoundCircle ();
 	});
 
-	$('.owl-carousel').trigger('stop.owl.autoplay');
+	// $('.owl-carousel').trigger('stop.owl.autoplay');
 	
 })(window.jQuery);
