@@ -811,5 +811,7 @@
 		handlePreloader();
 		expertizeRoundCircle ();
 	});
+
+	$('.owl-carousel').trigger('stop.owl.autoplay');
 	
 })(window.jQuery);

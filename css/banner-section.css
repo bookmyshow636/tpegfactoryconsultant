@@ -10,10 +10,29 @@
 }
 .banner-section .banner-shape{
     position: absolute;
-    top: 215px;
-    right: 15%;
+    top: 350px;
+    right: 7%;
     z-index: 99; 
 }
+
+
+.banner-section .vertical-text1 {
+    position: absolute;
+    left: -25%;
+    bottom: 37%;
+    content: '';
+    font-size: 200px;
+    line-height: 240px;
+    font-weight: 700;
+    z-index: 99;
+    font-style: normal;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255 255 255 / 40%);
+    color: transparent;
+}
+
 .banner-section .vertical-text{
     position: absolute;
     bottom: 37%;
