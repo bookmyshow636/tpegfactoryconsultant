@@ -2220,6 +2220,100 @@ and valuable.</p>
 </section>
 <!-- End Contact Page Section -->
 
+
+<style>
+    footer {
+        padding: 80px 0 60px;
+    }
+
+    .whats-app,
+    .desktop_phone {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        color: #fff !important;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 3px 4px 3px #14264d;
+        right: 15px;
+        z-index: 100;
+        line-height: 60px;
+    }
+
+    .whats-app {
+        bottom: 100px;
+        background-color: #25d366;
+    }
+
+    .desktop_phone {
+        bottom: 170px;
+        background-color: #0090f1;
+    }
+
+    @media (max-width: 768px) {
+        .whats-app,
+        .desktop_phone {
+            display: none;
+        }
+
+        .row.mobile_btn {
+            display: block !important;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        .mobile_btn .phone,
+        .mobile_btn .whatsapp {
+            padding: 10px 10px;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            text-align: center;
+            width: 50%;
+            position: fixed;
+            bottom: 0;
+            color: #fff;
+        }
+
+        .mobile_btn .phone {
+            background: #00aaee;
+            left: 0;
+        }
+
+        .mobile_btn .whatsapp {
+            background: #25D366;
+            right: 0;
+        }
+    }
+
+    .logo-background {
+        background: linear-gradient(to right, #001f3f, #003366);
+    }
+</style>
+
+<!-- Desktop Floating Buttons -->
+<a class="desktop_phone" href="tel:+971564576353" target="_blank">
+    <i class="fas fa-phone my-float"></i>
+</a>
+
+<a class="whats-app" href="https://api.whatsapp.com/send?phone=971564576353" target="_blank">
+    <i class="fab fa-whatsapp my-float"></i>
+</a>
+
+<!-- Mobile Bottom Buttons -->
+<div class="row mobile_btn d-none d-md-block">
+    <div class="phone">
+        <a href="tel:+971564576353" style="color:#fff;text-decoration:none;">📞 Call Us</a>
+    </div>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=971564576353" style="color:#fff;text-decoration:none;">💬 WhatsApp</a>
+    </div>
+</div>
+
+
  
 
 
